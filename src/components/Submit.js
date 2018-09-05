@@ -39,6 +39,7 @@ export class Submit extends React.Component{
 
 	}
 	handleClick(){
+		//refs are used to fetch th evalue from text input
 		//description value is shown using refs, whereas NAme of the Recipe is displayed using onChange function
 		console.log(this.desc.value);
 
